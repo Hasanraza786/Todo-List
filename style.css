@@ -1,0 +1,81 @@
+.heading{
+    text-align: center;
+    color: #00203FFF;
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+    text-shadow: #ADEFD1FF 3px 3px;
+    font-style: italic;
+}
+.main{
+    width: 60%;
+    background-color:#00203FFF;
+    text-align: center;
+    margin: auto;
+    min-height: 400px;
+    padding: 10px;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.todo{
+    width: 50%;
+    border: ADEFD1FF 1px solid;
+    height: 35px;
+    margin-top: 40px;
+}
+.addbtn{
+    color: #00203FFF;
+    text-align: center;
+    align-items: center;
+    background-color: #ADEFD1FF;
+    font-size: 20px;
+    border: black 1px solid;
+    border-radius: 40px;
+    margin-top: 40px;
+    margin-left: 2px;
+}
+.list{
+    width: 55%;
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
+    
+    
+}
+li{
+    display: flex;
+    list-style-type: none !important;
+    list-style-position: inside;
+    color: rgb(206, 190, 190);
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 2px;
+    border-bottom: #ADEFD1FF 2px solid;
+
+}
+.fa-trash-alt{
+    position: absolute;
+    right: 30px;
+}
+.fa-edit{
+    padding: 5px;
+}
+.footer{
+    text-align: center;
+}
+.clearbtn{
+    width: 20%;
+    color: #00203FFF;
+    text-align: center;
+    min-height: 39px;
+    background-color: #ADEFD1FF;
+    font-size: 15px;
+    border: #00203FFF 1px solid;
+    margin-top: 20px;
+}
+

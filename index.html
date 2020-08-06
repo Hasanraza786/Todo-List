@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ed8d9da77a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="heading">
+        <h1> TODO LIST</h1>
+    </div>
+    <div class="main">
+
+        <div class="input">
+            <input type="text" placeholder="Enter what you want to do" id="todolist" class="todo">
+            <button class="addbtn" onclick="todo()">+</button>
+        </div>
+        <div>
+            <ul class="list" id="list">
+
+            </ul>
+
+
+        </div>
+        <div class="footer">
+            <button class="clearbtn" onclick="clearAll()">Clear All</button>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+
+    <script>
+
+        var firebaseConfig = {
+            apiKey: "AIzaSyARiYCS8hLLZWhJki2lRpqR8ypNb9PYVGg",
+            authDomain: "todo-list-d8dd5.firebaseapp.com",
+            databaseURL: "https://todo-list-d8dd5.firebaseio.com",
+            projectId: "todo-list-d8dd5",
+            storageBucket: "todo-list-d8dd5.appspot.com",
+            messagingSenderId: "441213129282",
+            appId: "1:441213129282:web:5751b5531d638f9bc453db",
+            measurementId: "G-W9XJW1T4RK"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
